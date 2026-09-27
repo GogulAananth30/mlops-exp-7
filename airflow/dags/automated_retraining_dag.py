@@ -1,3 +1,13 @@
+import os
+import sys
+
+PROJECT_ROOT = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..")
+)
+
+sys.path.append(PROJECT_ROOT)
+
+
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator

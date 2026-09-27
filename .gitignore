@@ -1,7 +1,9 @@
 .venv/
+airflow_test/
 __pycache__/
 *.pyc
 
 airflow/logs/
-airflow.db
-airflow/*.db
+airflow_test/logs/
+
+models/

@@ -1,9 +1,15 @@
 .venv/
 airflow_test/
+
 __pycache__/
 *.pyc
 
-airflow/logs/
-airflow_test/logs/
+.env
+
+airflow/airflow.db
+airflow/airflow.db-shm
+airflow/airflow.db-wal
+
+airflow/simple_auth_manager_passwords.json.generated
 
 models/
